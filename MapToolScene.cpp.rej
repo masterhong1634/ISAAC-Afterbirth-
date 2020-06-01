@@ -1,0 +1,14 @@
+diff a/return S_OK TeamPortpolio/MapToolScene.cpp b/return S_OK TeamPortpolio/MapToolScene.cpp	(rejected hunks)
+@@ -295,6 +295,12 @@
+ {
+ 		file = CreateFile(fileName[saveCount], GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
+ 
++<<<<<<< HEAD
+ 		WriteFile(file, _tileMap, sizeof(TagTile) * TILE_COUNT_X * TILE_COUNT_Y, &write, NULL);
+ 		CloseHandle(file);
+ }
++=======
++	WriteFile(file, _tileMap, sizeof(TagTile) * TILE_COUNT_X * TILE_COUNT_Y, &write, NULL);
++	CloseHandle(file);
++}
++>>>>>>> 26d682031f7f8262091632daad5938751b9017f2

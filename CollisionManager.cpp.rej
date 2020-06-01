@@ -1,0 +1,20 @@
+diff a/return S_OK TeamPortpolio/CollisionManager.cpp b/return S_OK TeamPortpolio/CollisionManager.cpp	(rejected hunks)
+@@ -86,18 +86,8 @@
+ 							break;
+ 						}
+ 
+-<<<<<<< HEAD
+-					// �� ���ʹ��� HP ������ �޾ƿ� �÷��̾��� ���ݷ¸�ŭ HP�� ���ҽ�Ų��
+-					ENEMYMANAGER->GetMonstro()->SetEnemyHp(j, ENEMYMANAGER->GetMonstro()->GetEnemyHp(j) - PLAYERMANAGER->GetPlayerOffensePower());
+-
+-					if (ENEMYMANAGER->GetMonstro()->GetEnemyHp(j) <= 0)
+-					{
+-						// �ǰ��� �� ���� ���͸� ����� �Լ�
+-						//ENEMYMANAGER->GetMonstro()->DeleteEnemy(j);
+-=======
+ 						// ü�� �̹����� ����ش�.
+ 						ENEMYMANAGER->GetMonstro()->hitDamage(PLAYERMANAGER->GetPlayerOffensePower());
+->>>>>>> dev
+ 					}
+ 					else
+ 					{

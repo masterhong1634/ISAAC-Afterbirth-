@@ -1,0 +1,13 @@
+diff a/return S_OK TeamPortpolio/MapToolTile.h b/return S_OK TeamPortpolio/MapToolTile.h	(rejected hunks)
+@@ -40,6 +40,10 @@
+ 	TILEKIND tileKind[TILE_MAX]; // ������Ʈ, Ÿ�� ����.
+ 	POINT tilePos[TILE_MAX]; // ����Ÿ�Ͽ��� ������༮(frameX, frameY)
+ 
++<<<<<<< HEAD
+ 
+ 	int height=100; // ���ϼ��� Ŀ���� ����
++=======
++	int height;
++>>>>>>> 26d682031f7f8262091632daad5938751b9017f2
+ };
+\ No newline at end of file

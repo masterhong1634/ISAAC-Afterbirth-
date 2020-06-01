@@ -1,0 +1,35 @@
+ITEM
+
+액티브 15
+- The D6 아이템 바뀌는아이템       15
+- 구피의 발 : 최대 체력 -1 / 소울 하트 3개를 소환     15
+
+패시브  10
+- A Dollar : 돈 99개   
+- Pyro : 폭탄 99개
+- 디저트 : 최대 체력 + 1                             최대체력 1
+- 엄마의 립스틱 : 사거리 + 7.75 (이미지 바뀜)   +  100 사거리
+
+장신구 5
+- 염소 발굽 : 이속 0.15 증가                    1 증가
+- 꼬인 뿔 : 데미지 효율 +2                  데미지 증가 10
+- 아이작의 포크 : 방을 클리어할 때 일정 확률로 하트 반칸 회복       발사속도 증가 4
+- 성냥 : 폭탄 획득 확률 증가                 레인지 100 줄이고 / 데미지 10 증가
+
+++ 폭탄 구현하기 ++
+
+출저 : https://chodingking.tistory.com/259?category=465270
+
+	player.playerOffensePower = 50;																// 공격력
+	player.playerShotSpeed = 8.0f;																// 공격속도
+	player.playerShotRange = 450.0f;															// 공격사거리
+	playerBulletCount = 0;																		// 불렛 카운트
+	player.playerShotDelay = 25;																// 공격주기
+	player.playerSpeed = 3.0f;																	// 이동속도
+	player.playerSlideSpeed = 2.0f;																// 슬라이딩 속도
+
+	player.playerMaxHp = 3.0f;
+	player.playerHp = 2.0f;
+	player.playerGold = 4;
+	player.playerBomb = 1;
+	player.playerKey = 0;
